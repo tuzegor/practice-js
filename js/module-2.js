@@ -559,18 +559,5 @@ console.log(matrix[2][2]); // 9
 // console.log(includes(["apple", "plum", "pear", "orange"], "plum")); // true
 
 
-// Задачка от меня на подумать: Нужно найти первое оригинальное значение которое не повторяется.
-
-// const array = [2, 2, 2, 1, 1, 3, 4, 4, 5, 5] //3 
-
-// function getOriginalNumber(array) {
-//   let originalNumber = 0;
-
-//   for (let i = 0; i < array.length; i += 1) {
-//     const element = array[i];
-  // }
-  
-// }
-// console.log(getOriginalNumber([2, 2, 2, 1, 1, 3, 4, 4, 5, 5]));
 
 
