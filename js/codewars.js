@@ -24,3 +24,26 @@
 // console.log(isIsogram('isIsogram'));
 // console.log(isIsogram('fdsggdgdd'));
 // console.log(isIsogram('Isogram'));
+
+// TASK:
+// Simple, remove the spaces from the string, then return the resultant string.
+
+// function noSpace(x) {
+//   return x.split(' ').join('');
+// }
+
+// noSpace('8 j 8   mBliB8g  imjB8B8  jl  B'); //'8j8mBliB8gimjB8B8jlB';
+// noSpace('8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd'); //'88Bifk8hB8BB8BBBB888chl8BhBfd';
+// noSpace('8aaaaa dddd r     '); //'8aaaaaddddr';
+
+// Task:
+// Given a list of integers, determine whether the sum of its elements is odd or even.
+
+// Give your answer as a string matching "odd" or "even".
+
+// function oddOrEven(array) {
+//   const sum = array.reduce((acc, el) => acc + el, 0);
+
+//   return sum % 2 === 0 ? 'even' : 'odd';
+// }
+// console.log(oddOrEven([0, 2, 4, 3]));
