@@ -47,3 +47,26 @@
 //   return sum % 2 === 0 ? 'even' : 'odd';
 // }
 // console.log(oddOrEven([0, 2, 4, 3]));
+
+// Task:
+// Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+// invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
+// invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
+// invert([]) == []
+// You can assume that all values are integers. Do not mutate the input array/list.
+
+// function invert(array) {
+//   console.log(array);
+//   return array.map(elem => {
+//     const absEl = Math.abs(elem);
+//     return elem < 0 ? +absEl : -absEl;
+//   });
+// }
+// альтернативный вариант
+// function invert(array) {
+//   return array.map(x => (x === 0 ? x : -x));
+// }
+
+// console.log(invert([1, -2, 3, -3, 4, -5, 0]));
+// console.log(invert([]));
