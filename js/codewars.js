@@ -1,4 +1,4 @@
-// TASK:
+// Task: ------------------------------------------------------------------
 // An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
 // function isIsogram(str) {
@@ -25,7 +25,7 @@
 // console.log(isIsogram('fdsggdgdd'));
 // console.log(isIsogram('Isogram'));
 
-// TASK:
+// Task: ------------------------------------------------------------------
 // Simple, remove the spaces from the string, then return the resultant string.
 
 // function noSpace(x) {
@@ -36,7 +36,7 @@
 // noSpace('8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd'); //'88Bifk8hB8BB8BBBB888chl8BhBfd';
 // noSpace('8aaaaa dddd r     '); //'8aaaaaddddr';
 
-// Task:
+// Task: ------------------------------------------------------------------
 // Given a list of integers, determine whether the sum of its elements is odd or even.
 
 // Give your answer as a string matching "odd" or "even".
@@ -48,7 +48,7 @@
 // }
 // console.log(oddOrEven([0, 2, 4, 3]));
 
-// Task:
+// Task: ------------------------------------------------------------------
 // Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
 
 // invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
@@ -70,3 +70,27 @@
 
 // console.log(invert([1, -2, 3, -3, 4, -5, 0]));
 // console.log(invert([]));
+
+// Task: ------------------------------------------------------------------
+// Write a function findNeedle() that takes an array full of junk but containing one "needle"
+
+// After your function finds the needle it should return a message (as a string) that says:
+
+// "found the needle at position " plus the index it found the needle
+
+// function findNeedle(haystack) {
+//   return `found the needle at position ${haystack.indexOf('needle')}`;
+// }
+
+// console.log(
+//   findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false]),
+// );
+
+// Task: ------------------------------------------------------------------
+// It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+// function removeChar(str) {
+//   return str.slice(1, -1);
+// }
+
+// console.log(removeChar('eloquent')); // 'loquen'
